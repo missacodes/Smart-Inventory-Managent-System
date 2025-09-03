@@ -71,4 +71,4 @@ Dashboard available at 👉 [http://localhost:8501](http://localhost:8501)
 
 ## 👤 Author
 **Mohamed**  
-[LinkedIn](https://uk.linkedin.com/mohamed-ahmed-issa) | [GitHub](https://github.com/missacodes)
+[LinkedIn](https://uk.linkedin.com/in/mohamed-ahmed-issa) | [GitHub](https://github.com/missacodes)
