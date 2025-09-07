@@ -17,7 +17,7 @@ def seed():
     init_db()
     db: Session = SessionLocal()
 
-    # Add one store if none
+    
     store = db.query(Store).first()
     if not store:
         store = Store(name="Main Branch", region="Central")
@@ -25,11 +25,11 @@ def seed():
         db.commit()
         db.refresh(store)
 
-    # Add grocery products + inventory
+    
     for name, category in GROCERY_ITEMS:
         if not db.query(Product).filter(Product.name == name).first():
             p = Product(
-                sku=name,   # use grocery name as SKU
+                sku=name,   
                 name=name,
                 category=category,
                 unit_cost=round(random.uniform(1, 10), 2),
